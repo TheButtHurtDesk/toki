@@ -16,4 +16,4 @@ class State
     virtual void init_button(sf::Texture & texture, sf::Sprite & sprite) = 0;
     virtual int get_next_state() = 0;
 
-}
+};
