@@ -1,10 +1,11 @@
 #include <iostream>
 #include <SFML/Graphics.hpp>
+#include "state.h"
 
 int main()
 {
     std::cout << "1, 2, 3, 4, jag är en party myra!" << std::endl;
-    sf::RenderWindow window(sf::VideoMode(640, 480), "Toki");
+    /*sf::RenderWindow window(sf::VideoMode(640, 480), "Toki");
     sf::CircleShape shape(200);
 
     while (window.isOpen())
@@ -20,6 +21,8 @@ int main()
         window.clear();
         window.draw(shape);
         window.display();
-    }
+    }*/
+    
+
     return 0;
 }
