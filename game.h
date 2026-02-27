@@ -11,9 +11,10 @@ class Game
     ~Game() = default;
 
     void start_game();
+    void render(int curr_state, sf::RenderTarget & window);
 
     private:
     sf::RenderWindow window;
-    State* curr_state{};
+    //State* curr_state{};
     std::map<int, State*> state_map;
 };

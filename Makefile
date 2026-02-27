@@ -1,6 +1,5 @@
 files := \
 	main.cpp \
-	menu_state.cpp \
 	game.cpp \
 
 # Compiler (g++)
